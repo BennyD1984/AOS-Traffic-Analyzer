@@ -1,6 +1,8 @@
 # AOS-Traffic-Analyzer
 Simple traffic analyzer for Alcatel-Lucent OmniSwitches, giving clear view on interface traffic stats with SSH.
 
+![Image description].(AOS-Traffic-Analyzer-Screenshot.png)
+
 You need to install paramiko and prettytable to run the script. 
 
 Simply run the script with: "python AOS-Traffic-Analyzer-v1_3.py 192.168.1.254 [username] -p [password] 
