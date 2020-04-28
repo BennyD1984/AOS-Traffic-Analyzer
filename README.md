@@ -9,9 +9,12 @@ You need to install getpass, if you don´t want to type password in cleartext. Y
 
 Optional paramters are:
 
--r [number]      Increase the number of measurements
--t [number]      Set a trending view. How many of last measurements you want to see
+-r [number]      Increase the number of measurements.
+
+-t [number]      Set a trending view. How many of last measurements you want to see.
+
 -i [number]      Intervall of measurements multiplied by 5. Default is 1, so every 5 secons one measurement.
+
 -pc [number]     Pause between commands. Increase if the results seem to be incomplete. Default 0.5 seconds.
 
 Known issues not yet fixed:
