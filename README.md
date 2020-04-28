@@ -15,11 +15,11 @@ Optional paramters are:
 
 -t [number]      Set a trending view. How many of last measurements you want to see.
 
--i [number]      Intervall of measurements multiplied by 5. Default is 1, so every 5 secons one measurement.
+-i [number]      Intervall of measurements multiplied by 5. Default is 1, so every 5 seconds a measurement.
 
--pc [number]     Pause between commands. Increase if the results seem to be incomplete. Default 0.5 seconds.
+-pc [number].    Pause between commands. Increase if the results seem to be incomplete. Default 0.5 seconds.
 
 Known issues not yet fixed:
 - The first value of BUM traffic is shown as absolute value, not relative. This is due to missing compare value in first recording.
-- The script only checks active port at the start of the script. If an interface goes down during runtime, it shows the values from the   next active port that the RegEx matches. If an interface goes up during runtime of the script, it won´t be considered in the results.
+- The script only checks active port at the start of the script. If an interface goes down during runtime, it shows the values from the     next active port that the RegEx matches. If an interface goes up during runtime of the script, it won´t be considered in the results.
 
